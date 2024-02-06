@@ -113,6 +113,14 @@ registerSent("gmod_wire_spawner", {{
 	["b"] = {TYPE_NUMBER, 255},
 	["a"] = {TYPE_NUMBER, 255},
 }})
+registerSent("gmod_wire_rt_camera", {{
+	["Model"] = {TYPE_STRING},
+	["Default_fov"] = {TYPE_NUMBER},
+	["Cam resolution:height"] = {TYPE_NUMBER},
+	["Cam resolution:width"] = {TYPE_NUMBER},
+	["Hdr"] = {TYPE_BOOL},	
+	["Image filtering mode"] = {TYPE_NUMBER},					
+}})
 
 registerSent("gmod_wire_emarker", {{
 	["Model"] = {TYPE_STRING, "models/jaanus/wiretool/wiretool_siren.mdl"},
